@@ -41,7 +41,6 @@ function pg() {
       //    markers:true,
       scrub: true,
     },
-    position: "absolute",
     // stagger:0.5,
     // top:"-100%",
     duration: 10,
