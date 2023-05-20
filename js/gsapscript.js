@@ -60,7 +60,7 @@ function pg() {
   gsap.to("#insideservices",{
     scrollTrigger: {
         trigger: "section #services",
-    //   start: "top 0%",
+      start: "top 0%",
       // end:"top 0%",
       pin: true,
       // markers: true,
