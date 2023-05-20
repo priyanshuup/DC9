@@ -14,7 +14,7 @@ body {
 
 #main {
   position: relative;
-  background-color: rgb(221, 230, 221);
+  background-color: rgb(255, 255, 255);
   /* width: 100vw; */
   /* height: 90vh; */
   overflow: hidden;
@@ -92,32 +92,6 @@ body {
   }
   #main section .awardstext h4 {
     font-size: 5vw;
-  }
-  #main section #bubblepage {
-    position: relative;
-  }
-  #main section #bubblepage .leftbubblepage {
-    position: fixed;
-    width: 90vw;
-    /* background-color: #b91010; */
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  #main section #bubblepage span {
-    /* display: none; */
-  }
-  #main section #bubblepage .leftbubblepage .leftsubbox {
-    width: 80vw;
-  }
-  #main section #bubblepage .leftbubblepage .leftsubbox2 {
-    /* height: 90vh; */
-    width: 90vw;
-  }
-  #main section #bubblepage .rightbubblepage {
-    height: 100vh;
-    width: 90vw;
-    /* background-color: #b91010; */
   }
   #main section #bubblepage .rightbubblepage .rightbox h1 {
     font-size: 2vh;
@@ -656,10 +630,11 @@ button a {
 .rightbox button,
 .servicebox button {
   background-color: #000;
-  padding: 1.1vw;
+  padding: 1.1vh;
   color: #fff;
   border: none;
   cursor: pointer;
+  margin: 2vh;
 }
 
 hr.vertical {
@@ -757,52 +732,53 @@ hr.vertical {
 /* Bubble Page starts Here  */
 
 #bubblepage {
-  position: absolute;
+  position: relative;
   width: 100vw;
   /* height: 100vh; */
-  overflow: hidden;
-  background-color: #fff;
+  background-color: #ffffff;
   display: flex;
-  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   /* gap: 1.5vh; */
   z-index: 999999999999;
   border-bottom: none;
+  overflow: hidden;
 }
 
 .leftbubblepage {
-  height: 100vh;
-  width: 45vw;
+  position: relative;
+  /* height: 100vh; */
+  width: 600px;
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   /* gap: 2vh; */
   overflow: hidden;
-  /* background-color: #daa127; */
+  background-color: #ffffff;
 }
 .leftsubbox {
   position: relative;
-  min-width: 20vw;
-  height: 90vh;
+  /* min-width: 20vw; */
+  /* height: 90vh; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  flex-wrap: wrap;
-  padding: 1.5vh 0;
+  /* flex-wrap: wrap; */
+  gap: 3vh;
+  /* padding: 1.5vh 0; */
   overflow: hidden;
-  /* background-color: pink; */
+  background-color: rgb(255, 255, 255);
 }
 .box1 {
   position: relative;
-  height: 40vh;
+  height: 250px;
   padding: 1vh;
-  width: 100%;
-  /* background-color: grey; */
+  width: 300px;
+  background-color: rgb(255, 255, 255);
   background-image: url(https://images.unsplash.com/photo-1648852586605-76ea91102825?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-size: cover;
   background-position: center;
@@ -810,10 +786,10 @@ hr.vertical {
 }
 .box2 {
   position: relative;
-  height: 40vh;
+  height: 250px;
   padding: 1vh;
-  width: 100%;
-  /* background-color: red; */
+  width: 300px;
+  background-color: rgb(255, 255, 255);
   background-image: url(https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-size: cover;
   background-position: center;
@@ -821,9 +797,9 @@ hr.vertical {
 }
 .leftsubbox2 {
   position: relative;
-  width: 20vw;
-  height: 90vh;
-  padding: 1rem;
+  width: 300px;
+  height: 100vh;
+  padding: 5vh 0;
   /* background-color: #27da9b; */
   z-index: 999999;
 }
@@ -874,14 +850,14 @@ hr.vertical {
   z-index: 999999;
 }
 .rightbubblepage {
-  height: 90vh;
-  width: 40vw;
+  /* height: 90vh; */
+  width: 700px;
   /* padding: 0 1rem; */
-  background-color: #daa127;
+  /* background-color: #d7c499; */
 }
 
 .rightbox {
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -890,13 +866,14 @@ hr.vertical {
   background: #fff;
   color: #000;
   text-align: center;
-  padding: 0 1.2vw;
+  padding: 1.2vw;
 }
 .rightbox h3 {
   font-family: sans-serif;
   font-weight: 200;
   font-size: 2vw;
   z-index: 99999;
+  margin: 2vh 0;
 }
 .rightbox h4 {
   font-family: serif;
@@ -1831,43 +1808,43 @@ footer button {
 }
 @font-face {
   font-family: "Athenia demo";
-  src: url("./Athenia demo.ttf") format("truetype"),
-    url("./Athenia demo.ttf") format("truetype");
+  src: url("Athenia demo.ttf") format("ttf"),
+    url("Athenia demo.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "BreathDemo";
-  src: url("./Breath_Demo.ttf") format("truetype"),
-    url("./Breath_Demo.ttf") format("truetype");
+  src: url("Breath_Demo.ttf") format("ttf"),
+    url("Breath_Demo.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Etherela Thin";
-  src: url("./Ethereal-Thin.ttf") format("truetype"),
-    url("./Ethereal-Thin.ttf") format("truetype");
+  src: url("Ethereal-Thin.ttf") format("ttf"),
+    url("Ethereal-Thin.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Milchella";
-  src: url("./Milchella-Regular.ttf") format("truetype"),
-    url("./Milchella-Regular.ttf") format("truetype");
+  src: url("Milchella-Regular.ttf") format("ttf"),
+    url("Milchella-Regular.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bulgatry";
-  src: url("./Bulgatry.ttf") format("truetype"), url("./Bulgatry.ttf") format("truetype");
+  src: url("Bulgatry.ttf") format("ttf"), url("Bulgatry.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "CaghenDemo";
-  src: url("./Caghen_Demo.ttf") format("truetype"),
-    url("./Caghen_Demo.ttf") format("truetype");
+  src: url("Caghen_Demo.ttf") format("ttf"),
+    url("Caghen_Demo.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
