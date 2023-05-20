@@ -1,0 +1,1 @@
+* Creating a Home Page and adding Sweeper JS for Image Automation 
