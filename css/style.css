@@ -1831,43 +1831,43 @@ footer button {
 }
 @font-face {
   font-family: "Athenia demo";
-  src: url("Athenia demo.ttf") format("ttf"),
-    url("Athenia demo.ttf") format("ttf");
+  src: url("Athenia demo.ttf") format("truetype"),
+    url("Athenia demo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "BreathDemo";
-  src: url("Breath_Demo.ttf") format("ttf"),
-    url("Breath_Demo.ttf") format("ttf");
+  src: url("Breath_Demo.ttf") format("truetype"),
+    url("Breath_Demo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Etherela Thin";
-  src: url("Ethereal-Thin.ttf") format("ttf"),
-    url("Ethereal-Thin.ttf") format("ttf");
+  src: url("Ethereal-Thin.ttf") format("truetype"),
+    url("Ethereal-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Milchella";
-  src: url("Milchella-Regular.ttf") format("ttf"),
-    url("Milchella-Regular.ttf") format("ttf");
+  src: url("Milchella-Regular.ttf") format("truetype"),
+    url("Milchella-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Bulgatry";
-  src: url("Bulgatry.ttf") format("ttf"), url("Bulgatry.ttf") format("ttf");
+  src: url("Bulgatry.ttf") format("truetype"), url("Bulgatry.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "CaghenDemo";
-  src: url("Caghen_Demo.ttf") format("ttf"),
-    url("Caghen_Demo.ttf") format("ttf");
+  src: url("Caghen_Demo.ttf") format("truetype"),
+    url("Caghen_Demo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
