@@ -29,6 +29,12 @@ body {
 
 /* Responsive Code starts here  */
 
+@media (min-width: 601px) and (max-width: 800px) {
+  #navcontents{
+    gap: 5vh;
+    }
+}
+
 @media (min-width: 300px) and (max-width: 600px) {
   #main .navbar {
     display: none;
