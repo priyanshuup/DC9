@@ -29,12 +29,11 @@ body {
 
 /* Responsive Code starts here  */
 
-@media (min-width: 601px) and (max-width: 1200px) {
+@media (min-width: 601px) and (max-width: 800px) {
   #navcontents{
     gap: 5vh;
     }
 }
-
 @media (min-width: 300px) and (max-width: 600px) {
   #main .navbar {
     display: none;
@@ -410,7 +409,7 @@ body {
   list-style: none;
   text-decoration: none;
   transition:2s all;
-  margin: 2.5vw 1.5vw;
+  margin: 2.5vw 1vw;
 }
 #navcontents a:hover {
   transform: rotate(0deg);
@@ -1748,8 +1747,8 @@ video {
 .abtfrthrightimg img {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  object-position: center;
+  object-fit:cover;
+  object-position:center
 }
 
 #aboutusfifthcol {
